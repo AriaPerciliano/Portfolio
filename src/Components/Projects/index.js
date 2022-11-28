@@ -61,6 +61,8 @@ export default function Projects() {
                 <div>
                     <a href="#"><img src="https://raw.githubusercontent.com/AriaPerciliano/WatcherZ/main/public/image.png" alt="" /></a>
                     <h3>Clone do Youtube</h3>
+                    <p>O WatcherZ é um clone do Youtube que foi feito durante a Imersão React 5 da Alura, que aconteceu entre os dias 7 e 14 de Novembro de 2022.</p>
+                    <p>O</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet animi ut eaque dolorum mollitia fugiat exercitationem optio sint. Nihil, officia ullam vel sed ducimus est quae quo officiis aspernatur?</p>
                     <StyledTags>
                         #ReactJS #NextJS #Styled-components #Supabase
