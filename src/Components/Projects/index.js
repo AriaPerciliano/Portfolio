@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledProjects = styled.section`
         display: flex;
-        width: 80%;
+        width: 95%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -28,7 +28,8 @@ const StyledProjects = styled.section`
     div {
         display: flex;
         flex-direction: column;
-        padding: 40px;
+        width: 100%;
+        padding: 20px;
     }
     h2 {
         display: flex;
@@ -59,27 +60,28 @@ export default function Projects() {
             <h2>Projétos</h2>
             <section>
                 <div>
-                    <a href="#"><img src="https://raw.githubusercontent.com/AriaPerciliano/WatcherZ/main/public/image.png" alt="" /></a>
+                    <a href="https://watcher-z.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/AriaPerciliano/WatcherZ/main/public/image.png" alt="" /></a>
                     <h3>Clone do Youtube</h3>
-                    <p>O WatcherZ é um clone do Youtube que foi feito durante a Imersão React 5 da Alura, que aconteceu entre os dias 7 e 14 de Novembro de 2022.</p>
-                    <p>O</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet animi ut eaque dolorum mollitia fugiat exercitationem optio sint. Nihil, officia ullam vel sed ducimus est quae quo officiis aspernatur?</p>
+                    <p>O WatcherZ é um clone do Youtube que foi feito durante a Imersão React 5 da Alura, que aconteceu entre os dias 7 e 14 de Novembro de 2022. O projéto conta com diversas funcionalidades: como a possibilidade de filtrar os video; adicionar videos ao site e trocar o tema do site entre Dark e Light Mode.</p>
+                    <p>O projéto foi feito utilizando o React através do NextJS, os estilos dos componentes foram feitos dentro do próprio Javascript por meio do Styled-components. O Supabase foi usado para armazenar todos os dados dos videos.</p>
                     <StyledTags>
                         #ReactJS #NextJS #Styled-components #Supabase
                     </StyledTags>
                 </div>
                 <div>
                     <a href="#"><img src="https://raw.githubusercontent.com/AriaPerciliano/WatcherZ/main/public/image.png" alt="" /></a>
-                    <h3>Clone do Youtube</h3>
+                    <h3>Placeholder</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet animi ut eaque dolorum mollitia fugiat exercitationem optio sint. Nihil, officia ullam vel sed ducimus est quae quo officiis aspernatur?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum at amet rerum provident laboriosam, esse aperiam illo aspernatur exercitationem ipsa reprehenderit eos, atque, earum ab itaque nesciunt! Asperiores, itaque aliquid?</p>
                     <StyledTags>
                         #Teste #Teste #Teste #Teste
                     </StyledTags>
                 </div>
                 <div>
                     <a href="#"><img src="https://raw.githubusercontent.com/AriaPerciliano/WatcherZ/main/public/image.png" alt="" /></a>
-                    <h3>Clone do Youtube</h3>
+                    <h3>Placeholder`</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet animi ut eaque dolorum mollitia fugiat exercitationem optio sint. Nihil, officia ullam vel sed ducimus est quae quo officiis aspernatur?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum at amet rerum provident laboriosam, esse aperiam illo aspernatur exercitationem ipsa reprehenderit eos, atque, earum ab itaque nesciunt! Asperiores, itaque aliquid?</p>
                     <StyledTags>
                         #Teste #Teste #Teste #Teste
                     </StyledTags>

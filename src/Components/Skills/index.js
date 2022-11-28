@@ -20,7 +20,7 @@ const StyledSkills = styled.section`
     }
     #skills {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: left;
         justify-items: left;
@@ -34,8 +34,9 @@ const StyledSkills = styled.section`
         align-items: center;
     }
     p   {
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin: auto;
+        width: 70%;
     }
     button {
         background-color: blueviolet;
@@ -92,40 +93,45 @@ const StyledSkillText = styled.div`
     p {
         padding: 20px;
     }
+    h3 {
+        font-size: 2em;
+        padding: 20px;
+    }
 `;
 
 export default function Skills() {
+
     return (
         <StyledSkills>
             <h2>Habilidades</h2>
             <section id="skills">
                 <section>
                     <div className="SkillBoxes">
-                        <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-html-5-480.png"/>
+                        <StyledSkillBox onClick={() => console.log("it works")}>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/portfolio/master/public/icons8-html-5-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-css3-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-css3-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-javascript-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-javascript-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-github-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-github-480.png"/>
                         </StyledSkillBox>
                     </div>
                     <div className="SkillBoxes">
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-react-native-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-react-native-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-next.js-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-next.js-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-styled-components-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-styled-components-480.png"/>
                         </StyledSkillBox>
                         <StyledSkillBox>
-                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-git-480.png"/>
+                            <img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-git-480.png"/>
                         </StyledSkillBox>
                     </div>
                 </section>

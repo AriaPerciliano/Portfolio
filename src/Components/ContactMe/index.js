@@ -12,8 +12,10 @@ const StyledContact = styled.footer`
     p {
         padding: 10px;
         font-size: 1.3em;
+        margin: auto;
         margin-top: 20px;
         margin-bottom: 10px;
+        width: 60%;
     }
     div {
         display: flex;
@@ -52,12 +54,12 @@ export default function Contact() {
         <StyledContact>
         <h2>Onde me encontrar?</h2>
         <section>
-            <p>Você pode me encontrar aqui!</p>
+            <p>Caso meu portfólio tenha sido de seu interesse. Esses são os principais meios de me contatar:</p>
                 <div>
-                    <a href=""><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-github-480.png" alt="Github" /></a>
-                    <a href=""><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-linkedin-480.png" alt="Linkedin" /></a>
-                    <a href=""><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-discord-480.png" alt="Discord" /></a>
-                    <a href=""><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/main/public/icons8-gmail-logo-480.png" alt="Email" /></a>
+                    <a href="https://github.com/AriaPerciliano" target="_blank"><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-github-480.png" alt="Github" /></a>
+                    <a href="https://www.linkedin.com/in/aria-perciliano/" target="_blank"><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-linkedin-480.png" alt="Linkedin" /></a>
+                    <a href="https://discordapp.com/users/214174128582819851" target="_blank"><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-discord-480.png" alt="Discord" /></a>
+                    <a href="mailto:arianotfound404@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/AriaPerciliano/Portfolio/master/public/icons8-gmail-logo-480.png" alt="Email" /></a>
                 </div>
         </section>
         </StyledContact>

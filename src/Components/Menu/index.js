@@ -15,8 +15,9 @@ const StyledMenu = styled.header`
     z-index: 50;
     nav {
         border-bottom: 2px solid rebeccapurple;
-        border-radius: 20px;
-        padding: 20px;
+        border-radius: 0px 0px 100% 100%;
+        padding: 40px;
+        background-color: #0a0612;
     }
     a {
         height: 55px;
@@ -41,10 +42,10 @@ export default function Menu () {
     return (
         <StyledMenu>
                 <nav>
+                    <a href="#">Home</a>
                     <a href="#">Sobre Mim</a>
                     <a href="#">Habilidades</a>
                     <a href="#">Projétos</a>
-                    <a href="#">Contato</a>
                 </nav>
         </StyledMenu>
     )
